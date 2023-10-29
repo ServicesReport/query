@@ -1,0 +1,82 @@
+div, a, img, ul, li, embed{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	list-style:none;
+}
+
+.hide {
+	display: none;
+}
+.clear {
+	clear: both !important;
+	display: block !important;
+	font-size:0 !important;
+	height:0 !important;
+	line-height: 0 !important;
+	width: 100% !important;
+	margin:0 !important;
+	padding:0 !important;
+	border:0 !important;
+	
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+} /* Hide from IE Mac \*/
+.clearfix {
+	display: block;
+} /* End hide from IE Mac */
+.clear-fixed {
+	height: 100%;
+	overflow: hidden;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: red;
+}
+a:hover, a:active, a:focus {
+	outline: none;
+}
+a img {
+	border: none;
+}
+img {
+	vertical-align:top;
+}
+
+/* leftsead */
+#leftsead{width:161px;height:290px;position:fixed;top:350px;right:0px; z-index:100;}
+*html #leftsead{margin-top:258px;position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+#leftsead li{width:161px;height:60px;}
+#leftsead li img{float:right;}
+#leftsead li a{height:49px;float:right;display:block;min-width:47px;max-width:161px;}
+#leftsead li a .shows{display:block}
+#leftsead li a .hides{margin-right:-143px;cursor:pointer;cursor:hand;}
+#leftsead li a .cont .hides{display:none;position:absolute;right:143px;}
+#leftsead li a .cont .2wm .content div{padding:10px;text-indent:2em;}
+#p2{width:112px;background-color:#A7D2A9;height:47px;margin-left:47px;border:1px solid #8BC48D;text-align:center;line-height:47px}
+#p3{width:112px;background-color:#EC9890;height:47px;margin-left:47px;border:1px solid #E6776C;text-align:center;line-height:47px}
+#p1{width:47px;height:49px;float:left}
+
+
+.content{padding:5px}
+
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8{height:1px; font-size:1px; overflow:hidden; display:block;}
+.b1,.b8{margin:0 5px;}
+.b2,.b7{margin:0 3px;border-right:2px solid; border-left:2px solid;}
+.b3,.b6{margin:0 2px;border-right:1px solid; border-left:1px solid;}
+.b4,.b5{margin:0 1px;border-right:1px solid; border-left:1px solid; height:2px;}
+.content {border-right:1px solid;border-left:1px solid;overflow:hidden;}
+
+.color1 .b2,.color1 .b3,.color1 .b4,.color1 .b5,.color1 .b6,.color1 .b7,.color1 .content{border-color:#96C2F1;}
+.color1 .b1,.color1 .b8{background:#96C2F1;}
+.color1 .b2,.color1 .b3,.color1 .b4,.color1 .b5,.color1 .b6,.color1 .b7,.color1 .content{background:#EFF7FF;}
